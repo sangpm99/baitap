@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Javascript</title>
+</head>
+<body>
+    <div style="margin: 50px;">
+        <h1>Bài tập:</h1>
+        <p>
+            Bạn được cung cấp một object JSON đại diện cho một bộ sưu tập album nhạc. Mỗi album có một số id duy nhất làm key của nó và một số property khác. Không phải tất cả các album đều có thông tin đầy đủ <br>
+            Bạn hãy tạo một hàm updateRecords nhận: một object là bộ sưu tập, một id, một prop(như artist hoặc albumTitle) và một value. Hoàn thành hàm bằng cách sử dụng các quy tắc bên dưới để sửa đổi object được truyền vào hàm <br>
+            - Hàm của bạn phải luôn trả về toàn bộ object sau khi đã tiến hành thay đổi. <br>
+            - Nếu prop không phải là tracks và value không phải là một chuỗi rỗng, hãy cập nhật hoặc đặt value cho property có tên trùng với giá trị prop. <br>
+            - Nếu prop là tracks nhưng album không có property tracks, hãy tạo property tracks cho album là một array trống và thêm value vào. <br>
+            - Nếu prop là tracks và value không phải là một chuỗi rộng, hãy thêm value vào cuối array tracks hiện có của album. <br>
+            - Nếu value là một chuỗi trống, hãy xóa property có tên trùng với giá trị prop khỏi album. <br>
+        </p>
+        <!-- <span style="color: #e74c3c">Kết quả : </span>
+        <span style="color: #e74c3c" id="output"> -->
+            
+        </span>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
